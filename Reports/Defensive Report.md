@@ -8,7 +8,7 @@
 - Suggestions for Going Further
 
 ### Network Topology
-![Network Topology] (https://github.com/crashandmayhem/Final-Project/blob/main/Images/Final%20Project.drawio.png)
+![Network Topology](https://github.com/crashandmayhem/Final-Project/blob/main/Images/Final%20Project.drawio.png)
 
 The following machines were identified on the network:
 - Name of VM 1
