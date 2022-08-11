@@ -23,13 +23,10 @@ This scan identifies the services below as potential points of entry:
   - **_Port 139_**: netbios-ssn (Samba smbd 3.X - 4.X)
   - **_Port 445_**: netbios-ssn (Samba smbd 3.X - 4.X)
 
-_TODO: Fill out the list below. Include severity, and CVE numbers, if possible._
-
-The following vulnerabilities were identified on each target:
-- Target 1
-  - List of
-  - Critical
-  - Vulnerabilities
+The following vulnerabilities were identified on _Target 1_:
+  - test
+  - test
+  - test
 
 _TODO: Include vulnerability scan results to prove the identified vulnerabilities._
 
