@@ -43,7 +43,9 @@ Other Vulnerabilities Include:
 
 _User Enumeration_
 
-![wpscan](
+![wpscan](https://github.com/crashandmayhem/Final-Project/blob/main/Images/wpscan_1.png)
+
+![wpscan2](https://github.com/crashandmayhem/Final-Project/blob/main/Images/wpscan_3.png)
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
