@@ -45,7 +45,7 @@ Alert 1 is implemented as follows:
   - **Threshold**: grouped http response status codes above 400 every 5 minutes
     - **When count() GROUPED OVER top 5 'http.response.status_code' IS ABOVE 400 FOR THE LAST 5 minutes
   - **Vulnerability Mitigated**:
-    - **IPS would block any suspicious IP's
+    - **IPS would block any suspicious IP's**
     - **Used intrusion detection/prevention for attacks
     - **Filter and disable or close Port 22
     - **Utilize Account Management to lock or request user accounts to change the passwords every 60 days
