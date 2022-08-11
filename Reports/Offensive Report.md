@@ -76,7 +76,21 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
 ![flag1_2](https://github.com/crashandmayhem/Final-Project/blob/main/Images/grep%20for%20flags.png)
 
-  - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
+  - `flag2.txt`: {fc3fd58dcdad9ab23facac6e9a36e581c}
+    - **Same Method as Flag1**
+      - I was able to find the txt for Flag2 during the process of Flag1 and was located in /var/www and did a ls in the directory
+      - Commands:
+        - cd /var/www
+        - ls
+        - cat flag2.txt
+
+![flag2](https://github.com/crashandmayhem/Final-Project/blob/main/Images/flag%202.png)
+
+ - `flag3.txt`: {afc01ab56b50591e7dccf93122770cd23}
+    - **Exploit Used**
+      - _TODO: Identify the exploit used_
+      - _TODO: Include the command run_
+ - `flag4.txt`: {fc3fd5Bdcdad9ab23facac6e9a365e581c33}
     - **Exploit Used**
       - _TODO: Identify the exploit used_
       - _TODO: Include the command run_
