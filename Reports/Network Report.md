@@ -35,11 +35,19 @@ You must inspect your traffic capture to answer the following questions:
 ## Vulnerable Windows Machine
 
 1. Find the following information about the infected Windows machine:
-    - Host name
-    - IP address
-    - MAC address
-    
+   - Host name: _ROTTERDAM-PC_
+   - IP address: _172.16.4.205_
+   - MAC address: _00:59:07:b0:63:a4
 2. What is the username of the Windows user whose computer is infected?
+   - matthijs.devries
+
+![name](https://github.com/crashandmayhem/Final-Project/blob/main/Images/username%20of%20infected%20computer.png)
+
 3. What are the IP addresses used in the actual infection traffic?
+   -  185.243.225.84; 172.16.4.205
+
+![ip](https://github.com/crashandmayhem/Final-Project/blob/main/Images/ip%20address%20attacking%20host.png)
+
 4. As a bonus, retrieve the desktop background of the Windows host.
 
+![wallpaper](https://github.com/crashandmayhem/Final-Project/blob/main/Images/wallpaper.png)
