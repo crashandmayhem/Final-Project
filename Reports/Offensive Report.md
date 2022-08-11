@@ -76,7 +76,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
 ![flag1_2](https://github.com/crashandmayhem/Final-Project/blob/main/Images/grep%20for%20flags.png)
 
-  - `flag2.txt`: {fc3fd58dcdad9ab23facac6e9a36e581c}
+  - `flag2.txt`: {fc3fd58dcdad9ab23faca6e9a36e581c}
     - **Same Method as Flag1**
       - I was able to find the txt for Flag2 during the process of Flag1 and was located in /var/www and did a ls in the directory
       - Commands:
