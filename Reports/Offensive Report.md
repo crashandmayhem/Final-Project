@@ -21,7 +21,7 @@ This scan identifies the services below as potential points of entry:
   - **_Port 80_**: HTTP (Apache httpd 2.4.10)
   - **_Port 111_**: rpcbind (2-4 RPC #100000)
   - **_Port 139_**: netbios-ssn (Samba smbd 3.X - 4.X)
-  - _** Port 445_**: netbios-ssn (Samba smbd 3.X - 4.X)
+  - **_Port 445_**: netbios-ssn (Samba smbd 3.X - 4.X)
 
 _TODO: Fill out the list below. Include severity, and CVE numbers, if possible._
 
