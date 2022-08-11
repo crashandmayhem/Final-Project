@@ -21,8 +21,13 @@ You must inspect your traffic capture to answer the following questions:
 
 ![malware2](https://github.com/crashandmayhem/Final-Project/blob/main/Images/malware_3.png)
 
-5. Upload the file to [VirusTotal.com](https://www.virustotal.com/gui/). 
-6. What kind of malware is this classified as?
+4. Upload the file to [VirusTotal.com](https://www.virustotal.com/gui/). 
+
+![Trojan](https://github.com/crashandmayhem/Final-Project/blob/main/Images/june11_2.png)
+
+5. What kind of malware is this classified as?
+   - **This malware is classified as a Trojan**
+![Trojan2](https://github.com/crashandmayhem/Final-Project/blob/main/Images/june11_1.png)
 
 ---
 
