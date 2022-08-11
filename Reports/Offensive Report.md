@@ -24,14 +24,26 @@ This scan identifies the services below as potential points of entry:
   - **_Port 445_**: netbios-ssn (Samba smbd 3.X - 4.X)
 
 The following vulnerabilities were identified on _Target 1_:
-  - test
-  - test
-  - test
+  - _CVE-2021-28041_ Open SSH
+  - _CVE-2017-15710_ Apache https 2.4.10
+  - _CVE-2017-8779_ Open rpcbind port could lead to DDoS
+  - _CVE-2017-7494_ Samba NetBios
 
-_TODO: Include vulnerability scan results to prove the identified vulnerabilities._
+Other Vulnerabilities Include:
+
+  - WordPress User Enumeration
+    - Attackers were able to obtain a list of Usernames and taylor the attacks
+  - Weak User Passwords
+    - Attackers were able to Brute-Force one password and John the Ripper another  
+  - Sensitive Data Exposure
+    - Attackers were able to locate and use wp-config.php to log into SQL Database to retrieve more information
+  - Python sudo privilege escalation
 
 ### Exploitation
-_TODO: Fill out the details below. Include screenshots where possible._
+
+_User Enumeration_
+
+![wpscan](
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
