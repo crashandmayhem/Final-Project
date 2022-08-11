@@ -41,7 +41,7 @@ Other Vulnerabilities Include:
 
 ### Exploitation
 
-_User Enumeration_
+_WordPress User Enumeration_
 
 ![wpscan](https://github.com/crashandmayhem/Final-Project/blob/main/Images/wpscan_1.png)
 
@@ -49,8 +49,8 @@ _User Enumeration_
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
-  - `flag1.txt`: _TODO: Insert `flag1.txt` hash value_
-    - **Exploit Used**
+  - `flag1.txt`: {b9bbcb33e11b80be759c4e844862482d}
+    - **_CVE-2021-28041_ Open SSH _AND_ _Weak Password_**
       - _TODO: Identify the exploit used_
       - _TODO: Include the command run_
   - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
