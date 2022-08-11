@@ -93,9 +93,25 @@ The logs and alerts generated during the assessment suggest that this network is
     - Regular updates is a simple way to implement patches or fixes to the vulnerabilities/exploits
     - Depending on which _Security Plugins_ installed, we can get great features like malware scans and firewall protection
     - Disabling _REST API_ in WordPress will help mitigate WPScan or enumeration in general. Even though attackers do not get passwords this way, they can still get usernames and attempt Brute-Force-Attacks.
-- Vulnerability 2
-  - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
-  - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
-- Vulnerability 3
-  - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
-  - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
+
+- Vulnerability 2: _HTTP Request Size Monitor_
+  - **Patch**: Code Injection and DDOS Hardening
+    - Implementing HTTP Requests Limit on the Web Server
+      - Example:
+        - Maximum URL length
+        - Maximum size of requests
+    - Implement Input Validation on forms
+  - **Why It Works**:
+    - If an HTTP request is over the length and size limit, an HTTP Response Code _404_ will occur, thus rejecting requests that are too large
+    - Input Validation helps protect against attacks that attempt to send HTTP requests to the server requests via website or applications
+
+
+- Vulnerability 3: _CPU Usage Monitor_
+  - **Patch**: Virus or Malware Hardening
+    - Add and/or Update current Antivirus protection
+    - Implement and configure a Host Intrusion Detection System (HIDS)
+  - **Why It Works**:
+    - AntiVirus Software is designed to detect, remove, and prevent malicious threats 
+    - HIDS monitor and analyze the internal components of a system utilizing _Two_ distinct methods
+      - _Signature Based_ is focusing on known patterns, identity, or specific intrusion events that come from a definition database that gets updated regularly
+      - _Anomaly Based_ relies more on analyzing "trustworthy behavior" and use machine learning techniques to flag threats. Which is great for determing when someone is probing out network prior to the real attack
