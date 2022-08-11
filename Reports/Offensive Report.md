@@ -112,4 +112,28 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
  - `flag4.txt`: {715dea6c055b9fe3337544932f2941ceroot}
     - **Python sudo escalation**
-      - With the hashed passwords, I was able to create a .txt file named _'wp_hashes.txt'_
+      - With the hashed passwords, I was able to create a .txt file named _'wp_hashes.txt'_ and then use _John the Ripper_ to crack Steven's password 'pink84'
+        - Commands:
+          - root@Kali: cd Documents
+          - nano wp_hashes.txt
+            - inputed the hashes found in WordPress SQL Database
+          - saved the txt file
+          - john wp_hashes.txt
+
+![john](https://github.com/crashandmayhem/Final-Project/blob/main/Images/Screenshot%202022-08-06%20142027.png)
+
+- SSH as Steven and escalated to Root
+
+![steven](https://github.com/crashandmayhem/Final-Project/blob/main/Images/escalate%20to%20root%20steven.png)
+
+- Once privileges were escalated, started searching directories for flags
+  - Commands:
+    - ls -a
+    - cd ../
+    - ls
+    - cd /root
+    - ls -a
+    - cat flag4.txt
+
+![flag4](https://github.com/crashandmayhem/Final-Project/blob/main/Images/flag%20as%20root%20steven.png)
+
