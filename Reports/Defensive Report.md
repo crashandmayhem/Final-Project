@@ -49,15 +49,17 @@ Alert 1 is implemented as follows:
     - **Used intrusion detection/prevention for attacks**
     - **Filter and disable or close Port 22**
     - **Utilize Account Management to lock or request user accounts to change the passwords every 60 days**
-  -   - **Reliability**: This alert will not generate excessive amounts of false positives identifying brute force attacks. Medium Reliability 
+  - **Reliability**: This alert will not generate excessive amounts of false positives identifying brute force attacks. Medium Reliability 
 
 
-#### 
+#### HTTP Request Size Monitor
+
 Alert 2 is implemented as follows:
-  - **Metric**: TODO
-  - **Threshold**: TODO
-  - **Vulnerability Mitigated**: TODO
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  - **Metric**: Packetbeat: http.request.bytes
+  - **Threshold**: The sum IS ABOVE 3500
+    - **When sum() of http.request.bytes OVER all documents IS ABOVE 3500 FOR THE LAST 1 minute** 
+  - **Vulnerability Mitigated**: Code Injections in HTTP requests (XSS) or DDOS attacks
+  - **Reliability**: This alert doesn't generate an excessive amount of false positives because DDOS attacks submit requests within seconds and not minutes. Medium Reliability
 
 #### Name of Alert 3
 Alert 3 is implemented as follows:
