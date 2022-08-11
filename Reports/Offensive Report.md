@@ -105,6 +105,11 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
 ![sqlpw](https://github.com/crashandmayhem/Final-Project/blob/main/Images/mysql_user_pw.png)
 
+- _Flags 3 & 4_
+
+![flags3-4](https://github.com/crashandmayhem/Final-Project/blob/main/Images/flags%203_4.png)
+
+
  - `flag4.txt`: {715dea6c055b9fe3337544932f2941ceroot}
     - **Exploit Used**
       - _TODO: Identify the exploit used_
