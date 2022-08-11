@@ -66,11 +66,11 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
 ![ssh michael](https://github.com/crashandmayhem/Final-Project/blob/main/Images/ssh%20michael.png)
 
--Found Flag 1 through scanning through the files and directories and also ran a GREP command
- - Commands:
- - cd /
- - cd /var/www
- - grep -R flag
+  -Found Flag 1 through scanning through the files and directories and also ran a GREP command
+   - Commands:
+   - cd /
+   - cd /var/www
+   - grep -R flag
 
 ![flag1_1](https://github.com/crashandmayhem/Final-Project/blob/main/Images/flag%201.png)
 
