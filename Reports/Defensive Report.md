@@ -62,6 +62,8 @@ Alert 2 is implemented as follows:
   - **Vulnerability Mitigated**: Code Injections in HTTP requests (XSS) or DDOS attacks
   - **Reliability**: This alert doesn't generate an excessive amount of false positives because DDOS attacks submit requests within seconds and not minutes. Medium Reliability
 
+![HTTP SIZE](https://github.com/crashandmayhem/Final-Project/blob/main/Images/HTTP%20Request%20Size%20Monitor_2.png)
+
 #### CPU Usage Monitor
 
 Alert 3 is implemented as follows:
@@ -70,6 +72,8 @@ Alert 3 is implemented as follows:
     - **WHEN max() OF system.process.cpu.total.pct OVER all documents IS ABOVE 0.5 FOR THE LAST 5 minutes**
   - **Vulnerability Mitigated**: Malicious software and/or programs (malware or viruses) taking up resources
   - **Reliability**: Highly Reliable...This alert will generate some false positives due to CPU spikes even if not malicious activity. 
+
+![CPU Monitor](https://github.com/crashandmayhem/Final-Project/blob/main/Images/CPU%20Usage.png)
 
 ### Suggestions for Going Further (Optional)
 _TODO_: 
