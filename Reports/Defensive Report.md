@@ -11,15 +11,22 @@
 ![Network Topology](https://github.com/crashandmayhem/Final-Project/blob/main/Images/Final%20Project.drawio.png)
 
 The following machines were identified on the network:
-- Name of VM 1
-  - **Operating System**:
-  - **Purpose**:
-  - **IP Address**:
-- Name of VM 2
-  - **Operating System**:
-  - **Purpose**:
-  - **IP Address**:
-- Etc.
+- Name of VM 1 Kali
+  - **Operating System**: Linux 5.4.0
+  - **Purpose**: Attacking Machine
+  - **IP Address**: 192.168.1.90
+- Name of VM 2 Capstone
+  - **Operating System**: Linux (Ubuntu 18.04.1.LTS)
+  - **Purpose**: Used as testing system for alerts
+  - **IP Address**: 192.168.1.105
+- Name of VM 3 ELK
+  - **Operating System**: Linux (Ubuntu 18.04.1 LTS)
+  - **Purpose**: Used for gathering information from the Target 1 machine using Metricbeat, Filebeats, and Packetbeats
+  - **IP Address**: 192.168.1.100
+- Name of VM 4 Target 1
+  - **Operating System**: Linux 3.2 - 4.9
+  - **Purpose**: The Victim Machine with Wordpress as a vulnerable server
+  - **IP Address**: 192.168.1.110
 
 ### Description of Targets
 _TODO: Answer the questions below._
