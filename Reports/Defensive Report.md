@@ -82,8 +82,17 @@ Alert 3 is implemented as follows:
 The logs and alerts generated during the assessment suggest that this network is susceptible to several active threats, identified by the alerts above. In addition to watching for occurrences of such threats, the network should be hardened against them. The Blue Team suggests that IT implement the fixes below to protect the network:
 - Vulnerability 1: _Excessive HTTP Errors_
   - **Patch**: WordPress Hardening
-    - **Word**
-  - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
+    - Regular updates should be implemented
+      - WordPress Core
+      - PHP Versions
+      - Plugins
+    - Installing security plugins
+    - Disabling unused WordPress features and settings
+    - Remove WordPress logins from being publicly accessible
+  - **Why It Works**:
+    - Regular updates is a simple way to implement patches or fixes to the vulnerabilities/exploits
+    - Depending on which _Security Plugins_ installed, we can get great features like malware scans and firewall protection
+    - Disabling _REST API_ in WordPress will help mitigate WPScan or enumeration in general. Even though attackers do not get passwords this way, they can still get usernames and attempt Brute-Force-Attacks.
 - Vulnerability 2
   - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
   - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
