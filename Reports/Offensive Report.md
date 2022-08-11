@@ -90,7 +90,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
     - **Exploit Used**
       - _TODO: Identify the exploit used_
       - _TODO: Include the command run_
- - `flag4.txt`: {fc3fd5Bdcdad9ab23facac6e9a365e581c33}
+ - `flag4.txt`: {fc3fd5Bdcdad9ab23faca6e9a365e581c33}
     - **Exploit Used**
       - _TODO: Identify the exploit used_
       - _TODO: Include the command run_
