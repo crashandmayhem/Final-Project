@@ -57,6 +57,8 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
       - Command: hydra -l michael -P /usr/share/wordlists/rockyou.txt -vV 192.168.1.110 -t 4 ssh
       - Command: ssh michael@192.168.1.110
 
+- Brute Force
+
 ![brute force](https://github.com/crashandmayhem/Final-Project/blob/main/Images/hydra_1.png)
 
 ![brute force2](https://github.com/crashandmayhem/Final-Project/blob/main/Images/hydra_2.png)
