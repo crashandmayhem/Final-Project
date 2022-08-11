@@ -97,6 +97,13 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
 ![nano mysql](https://github.com/crashandmayhem/Final-Project/blob/main/Images/nano%20wp-config.php.png)
 
+- Once in MySQL, I was able to navigate through the database and locate Flags 3 and 4 within wp_posts and obtain 'Steven' hashed password
+
+![mysql2](https://github.com/crashandmayhem/Final-Project/blob/main/Images/mysql_2.png)
+
+![mysql3](https://github.com/crashandmayhem/Final-Project/blob/main/Images/mysql_3.png)
+
+![sqlpw](https://github.com/crashandmayhem/Final-Project/blob/main/Images/mysql_user_pw.png)
 
  - `flag4.txt`: {715dea6c055b9fe3337544932f2941ceroot}
     - **Exploit Used**
