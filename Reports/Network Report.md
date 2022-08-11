@@ -27,6 +27,7 @@ You must inspect your traffic capture to answer the following questions:
 
 5. What kind of malware is this classified as?
    - **This malware is classified as a Trojan**
+   
 ![Trojan2](https://github.com/crashandmayhem/Final-Project/blob/main/Images/june11_1.png)
 
 ---
