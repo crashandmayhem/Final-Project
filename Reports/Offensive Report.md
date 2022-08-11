@@ -86,11 +86,19 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
 ![flag2](https://github.com/crashandmayhem/Final-Project/blob/main/Images/flag%202.png)
 
- - `flag3.txt`: {afc01ab56b50591e7dccf93122770cd23}
-    - **Exploit Used**
-      - _TODO: Identify the exploit used_
-      - _TODO: Include the command run_
- - `flag4.txt`: {fc3fd5Bdcdad9ab23faca6e9a365e581c33}
+ - `flag3.txt`: {afc01ab56b50591e7dccf93122770cd2}
+    - **Sensitive Data Exposure**
+      - Signed in as Michael I was able to locate the login information for WordPress SQL Servers DB_USER 'root' DB_PASSWORD 'R@v3nSecurity'
+        - cd /var/www/html/wordpress
+        - ls
+        - nano wp-config.php
+
+![config files](https://github.com/crashandmayhem/Final-Project/blob/main/Images/mysql.png)
+
+![nano mysql](https://github.com/crashandmayhem/Final-Project/blob/main/Images/nano%20wp-config.php.png)
+
+
+ - `flag4.txt`: {715dea6c055b9fe3337544932f2941ceroot}
     - **Exploit Used**
       - _TODO: Identify the exploit used_
       - _TODO: Include the command run_
