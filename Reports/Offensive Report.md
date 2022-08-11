@@ -116,7 +116,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
         - Commands:
           - root@Kali: cd Documents
           - nano wp_hashes.txt
-            - inputed the hashes found in WordPress SQL Database
+            - inputted the hashes found in WordPress SQL Database
           - saved the txt file
           - john wp_hashes.txt
 
