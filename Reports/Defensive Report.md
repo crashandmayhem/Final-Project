@@ -29,7 +29,6 @@ The following machines were identified on the network:
   - **IP Address**: 192.168.1.110
 
 ### Description of Targets
-_Answer the questions below._
 
 The target of this attack was: `Target 1` (192.168.1.110).
 
@@ -44,8 +43,14 @@ Traffic to these services should be carefully monitored. To this end, we have im
 Alert 1 is implemented as follows:
   - **Metric**: Packetbeat: http.response.status_code > 400
   - **Threshold**: grouped http response status codes above 400 every 5 minutes
-  - **Vulnerability Mitigated**: TODO
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+    - **When count() GROUPED OVER top 5 'http.response.status_code' IS ABOVE 400 FOR THE LAST 5 minutes
+  - **Vulnerability Mitigated**:
+    - **IPS would block any suspicious IP's
+    - **Used intrusion detection/prevention for attacks
+    - **Filter and disable or close Port 22
+    - **Utilize Account Management to lock or request user accounts to change the passwords every 60 days
+  -   - **Reliability**: This alert will not generate excessive amounts of false positives identifying brute force attacks. 
+
 
 #### Name of Alert 2
 Alert 2 is implemented as follows:
@@ -58,9 +63,9 @@ Alert 2 is implemented as follows:
 Alert 3 is implemented as follows:
   - **Metric**: TODO
   - **Threshold**: TODO
-  - **Vulnerability Mitigated**: TODO
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
-
+  - **Vulnerability Mitigated**:
+    
+  - **Reliability**: 
 _TODO Note: Explain at least 3 alerts. Add more if time allows._
 
 ### Suggestions for Going Further (Optional)
