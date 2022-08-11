@@ -111,6 +111,5 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
 
  - `flag4.txt`: {715dea6c055b9fe3337544932f2941ceroot}
-    - **Exploit Used**
-      - _TODO: Identify the exploit used_
-      - _TODO: Include the command run_
+    - **Python sudo escalation**
+      - With the hashed passwords, I was able to create a .txt file named _'wp_hashes.txt'_
